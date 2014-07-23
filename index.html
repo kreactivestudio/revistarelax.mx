@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<link href='http://favicon.ico' rel='icon' type='image/x-icon'/>
+	<meta name="description" content="Relax, lectura terapéutica.  Una publicación más de Atenea Pharma.  Tel. (52) (55) 5575 1100" />
+	<meta name="robots" content="follow" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale:2.0; user-scalable=1"/>
+	<title>Revista Relax - Lectura Terapéutica. </title>
+
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/responsive.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/estilo.css?<?php echo time();?>"/>
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,700' rel='stylesheet' type='text/css'>
+	<!--[if lt IE 9]>
+	script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  	<script src="js/jquery.slides.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  	  <script charset="utf-8" src="js/menu.js"></script>
+
+    <script>
+    $(function(){
+      $("#slideshow").slidesjs({
+        width: 400,
+        height: 200,
+        navigation: false
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+
+	<header>
+		<div id="logotipo">
+			<div id="logo"></div>			
+			<span>Lectura Terapéutica.</span>
+		</div>
+		<div class="fecha">Lunes 22 de septiembre del 2014</div>
+		<div id="r-menu">
+			<nav>
+
+				<ul>
+					<li><a href="#" class="button red radius">
+						<span><i class="fa fa-home"></i></span>Inicio</a>
+					</li>
+					<li><a href="#" class="button red radius">
+						<span><i class="fa fa-users"></i></span>Quienes Somos</a>
+					</li>
+					<li><a href="#" class="button red radius">
+						<span><i class="fa fa-flag"></i></span>Eventos y Congresos</a>
+					</li>
+					<li><a href="#" class="button red radius">
+						<span><i class="fa fa-file-image-o"></i></span>Ediciones Anteriores</a>
+					</li>
+					<li><a href="#" class="button red radius">
+						<span><i class="fa fa-phone-square"></i></span>Contacto</a>
+					</li>
+				</ul>
+			</nav>
+			<a href="#" id="navbtn">Nav Menu</a>  
+		</div>
+	</header>
+
+	<!--MAIN-->
+	<section id="main">
+		<!--BANNER-->
+		<div class="banner">
+			<section class="widget-pub">
+				<img src="http://lorempixel.com/728/90">
+			</section>
+		</div>		
+		<!--BANNER-->
+		<div class="leftbar">
+			<section class="widget-pub">
+				<img src="http://lorempixel.com/160/600">
+			</section>
+		</div>
+		<!--COLUMNA  CENTRAL-->
+		<div class="column">
+			<!--SLIDESHOW-->
+			<div id="no-slide">
+				<section id="slideshow">
+					<div class="slide">
+						<img class="thumb" src="http://lorempixel.com/400/250">
+						<!--
+						<article>
+							<hgroup><h2><a href="#">TITULO</a></h2></hgroup>
+							<p class="date">21 de septiembre de 2014 en <a href="#">Categoria 1</a></p>
+							<p class="extract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur delectus veniam dicta, nam, dolorum id inventore nemo perferendis sint aliquam, dolor, sed aut maiores dolorem corporis. Autem rem, quasi consectetur?</p>
+						</article>
+					-->
+					</div>
+
+					<div class="slideshow">
+						<img class="thumb" src="http://lorempixel.com/400/200">
+					</div>
+
+					<div class="slideshow">
+						<img class="thumb" src="http://lorempixel.com/400/200">
+					</div>	
+				</section>
+			</div>
+			<!--ARTICULOS-->
+			<section id="articles_list">
+				<article>
+					<img class="thumb" src="http://lorempixel.com/150/150">
+					<hgroup><h2><a href="#">Titulo de nuestro artículo</a></h2></hgroup>
+					<p class="date">21 de septiembre de 2014 en <a href="#">Categoria 1</a></p>
+						<p class="extract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur delectus veniam dicta, nam, dolorum id inventore nemo perferendis sint aliquam, dolor, sed aut maiores dolorem corporis. Autem rem, quasi consectetur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quidem non minus unde odio, quis saepe ipsa ducimus provident nulla impedit nihil ea, pariatur nobis, maiores dolore sed in magnam?</p>
+				</article>
+				<article>
+					<img class="thumb" src="http://lorempixel.com/150/150">
+					<hgroup><h2><a href="#">Titulo de nuestro artículo</a></h2></hgroup>
+					<p class="date">21 de septiembre de 2014 en <a href="#">Categoria 1</a></p>
+						<p class="extract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur delectus veniam dicta, nam, dolorum id inventore nemo perferendis sint aliquam, dolor, sed aut maiores dolorem corporis. Autem rem, quasi consectetur? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia velit nulla quo error vero aspernatur culpa cumque, quidem aliquid, magni fuga tempore doloremque inventore exercitationem assumenda dolor porro nam enim!</p>
+				</article>
+				<div id="pagination">
+					<p><a href="">  <- Siguiente <a><a href="">  Anterior ->  <a></p>
+				</div>	
+			</section>
+		</div>
+		<!--/COLUMN-->
+		<!--ASIDE-->
+		<aside>
+			<section class="widget">
+				<h3>Revista del Mes</h3>
+					<div class="zoom"><img src="http://lorempixel.com/200/280" alt="Revista Relax"></div>
+			</section>
+			<section class="widget">
+				<img src="http://lorempixel.com/200/200" alt="Revista Relax">
+			</section>
+		</aside>
+	</section>
+	<!--/MAIN-->
+
+
+	<footer>
+		<ul>
+			<li>Inicio</li>
+			<li>Revista Digital</li>
+			<li>Contacto</li>
+			<li>Politica de Privacidad</li>
+		</ul>
+	</footer>
+		
+
+	<div class="copyright">Revista Relax</p>
+		<span>Una publicación más de Atenea Pharma.  Tel. (52) (55) 5575 1100 </span>
+	</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/subir.js"></script>
+
+
+</body>
+</html>
